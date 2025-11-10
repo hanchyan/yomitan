@@ -88,7 +88,7 @@ body[data-loaded=true] .toggle-group {
     height: 43px;
     position: relative;
     overflow: hidden;
-    border: 1px solid #245580;
+    border: 1px solid #08f152;
     border-radius: 4px;
     display: inline-block;
 }
@@ -131,10 +131,10 @@ body[data-loaded=true] .toggle-group {
     left: 0;
     right: 50%;
     color: #ffffff;
-    border-color: #2e6da4;
+    border-color: #09f945;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), inset 0 3px 5px rgba(0, 0, 0, 0);
-    background-image: linear-gradient(225deg, #bc00ff, #00eeff);
+    background-image: linear-gradient(225deg, #64f10c, #e28c0b);
     background-repeat: repeat-x;
 }
 input[type=checkbox]:focus~.toggle-group>.toggle-on,
@@ -294,11 +294,11 @@ select.profile-select {
 }
 
 .enable-dictionary-tooltip {
-    color: #f0ad4e;
+    color: #1b602d;
 }
 
 .tooltip>a:link, a:visited {
-    color: #f0ad4e;
+    color: #0bc086;
 }
 
 /* Mobile overrides */
