@@ -170,6 +170,7 @@ export class HotkeyHandler extends EventDispatcher {
     /**
      * @param {KeyboardEvent} event
      */
+    // here is one of the keys to your puzzle
     _onKeyDown(event) {
         let hotkeyInfo = this._hotkeys.get(event.code);
         const modifierKeycodes = ['ControlLeft', 'ControlRight', 'ShiftLeft', 'ShiftRight', 'AltLeft', 'AltRight', 'MetaLeft', 'MetaRight'];
